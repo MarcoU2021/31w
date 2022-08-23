@@ -1,0 +1,70 @@
+/**
+* block menu de la page d'accueil
+*/
+
+
+.menu-accueil-container{
+    margin-top: 50px;
+}
+
+.menu-accueil-container .menu{
+    display : flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-accueil-container .menu .menu-item {
+    list-style-type: none;
+    margin : 0;
+    padding : 0;
+    border : 1px solid #aaa;
+    width: 30%;
+    padding : 1.5rem;
+}
+
+.menu-accueil-container .menu .menu-item a {
+    text-decoration: none;
+}
+
+
+.menu-atelier-menu-container{
+    margin-top: 50px;
+}
+
+.menu-atelier-menu-container .menu{
+    display : flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.menu-atelier-menu-container .menu .menu-item {
+    list-style-type: none;
+    margin : 0;
+    padding : 0;
+    border : 1px solid #aaa;
+    width: 22%;
+    padding : 1.5rem;
+}
+
+.menu-atelier-menu-container .menu .menu-item a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu-item-179{
+    background-color: rgb(89, 128, 235);
+}
+
+#menu-item-180{
+    background-color: rgb(132, 128, 84);
+}
+
+
+#menu-item-181{
+    background-color: rgb(91, 126, 105);
+}
+
+#menu-item-182{
+    background-color: rgb(106, 140, 164);
+}
