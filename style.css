@@ -388,7 +388,7 @@ h1 {
 /*   font-family: "Montserrat", sans-serif; */
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h2 {
+h2{
   color: rgb(161, 160, 170);
 /*   font-family: "Montserrat", sans-serif; */
 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -609,10 +609,22 @@ textarea {
   z-index: 99;
   top: 0;
   left: 0;
-  background-color: #fff;
+  background-color: none;
   transform: translateX(-100vw);
   transition: transform 0.5s;
 }
+
+  .menu__sidebar a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+
+  }
+
+  .menu-accueil-container ul li{
+    background-color: red;
+  }
+
 @media screen and (min-width: 700px) {
   .menu__sidebar {
     position: static;
@@ -690,13 +702,16 @@ textarea {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 300px;
+  height: 400px;
   border: 1px solid #aaa;
   flex-basis: 50%;
+  background-color: #ffffff;
+  box-shadow: 10px 10px rgb(159, 181, 189);
+
 }
 @media screen and (min-width: 700px) {
   .blocs__horizontaux article {
-    flex-basis: 22%;
+    flex-basis: 30%;
   }
 }
 
