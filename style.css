@@ -622,7 +622,7 @@ textarea {
   }
 
   .menu-accueil-container ul li{
-    background-color: red;
+    background-color: rgb(190, 192, 193);
   }
 
 @media screen and (min-width: 700px) {
