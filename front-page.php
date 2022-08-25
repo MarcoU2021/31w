@@ -1,6 +1,6 @@
 <?php get_header(); ?> 
 <section class="site__main">
-    <h1>College Maisonneuve</h1>
+    <h1>Collège Maisonneuve</h1>
     <div class="blocs__horizontaux">
     <?php
         if (have_posts()):
