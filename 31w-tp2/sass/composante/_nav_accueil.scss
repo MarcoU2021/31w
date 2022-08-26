@@ -1,0 +1,38 @@
+/**
+* block menu de la page d'accueil
+*/
+
+
+.menu-accueil-container{
+    margin-top: 50px;
+}
+
+.menu-accueil-container .menu{
+    display : flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.menu-accueil-container .menu .menu-item {
+    list-style-type: none;
+    margin : 15px;
+    padding : 0;
+    border : 1px solid black;
+    border-radius: 5px;
+    width: 30%;
+    padding : 1.5rem;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 5px 10px #888888;
+   
+}
+.menu-accueil-container .menu .menu-item:hover{
+    scale: 1.1;
+}
+
+.menu-accueil-container .menu .menu-item a {
+    text-decoration: none;
+}
+
